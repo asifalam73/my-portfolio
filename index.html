@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/0b83a9bad7.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav><h1 class="logo"><span>A</span>sif<span>..</span></h1>
+            <ul id="side-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text"><p>UI/UX Designer</p>
+            <h1>Hi, I'm <Span>Asif</Span> alam<br> from <span>India</span></h1></div>
+    </div>
+</div> <!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img
+                    alt=""
+                    src="https://png.pngtree.com/png-vector/20240205/ourmid/pngtree-man-developer-with-laptop-png-image_11623644.png"></div>
+            <div class="about-col-2"><h1 class="sub-title">About Me</h1>
+                <p> Hello! I am Asif, a <span>BCA</span> student currently studying in the <span>4th semester</span>. I
+                    have a strong interest in web development and I enjoy building responsive and user-friendly websites
+                    using HTML, CSS, and JavaScript. </p>
+                <div class="tab-titles"><p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p></div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UXX</span><br>Designing website</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025</span><br>Developed personal projects using HTML, CSS, and JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>BCA from Patna (bihar)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------services------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div><i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I specialize in designing modern, responsive, and user-friendly websites. I use HTML, CSS, and
+                    JavaScript to build attractive layouts that work smoothly on all devices.</p> <a class="btn"
+                                                                                                     href="#">Learn
+                    More</a></div>
+            <div><i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>I design simple, clean, and user-friendly interfaces that provide a smooth and better user
+                    experience. I focus on easy navigation and attractive design.</p> <a class="btn" href="#">Learn
+                    More</a></div>
+        </div>
+    </div>
+</div> <!----------------portfolio--------------->
+<div id="portfolio">
+    <div class="container"><h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work"><img
+                    alt=""
+                    src="https://tse4.mm.bing.net/th/id/OIP.7c3xiOC3JqirLddDgmkOSgAAAA?w=470&h=626&rs=1&pid=ImgDetMain&o=7&rm=3">
+                <div class="layer"><h3>Social Media</h3>
+                    <p> lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p> <a href="#"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+            </div>
+            <div class="work"><img alt=""
+                                   src="https://img.freepik.com/premium-photo/smartphone-forest_835895-10324.jpg">
+                <div class="layer"><h3>Social Media</h3>
+                    <p> lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p> <a href="#"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+            </div>
+            <div class="work"><img
+                    alt=""
+                    src="https://img.freepik.com/premium-photo/free-mobile-standing-grassy-plot-vertical-shape-ai-generated_999195-64.jpg">
+                <div class="layer"><h3>Social Media</h3>
+                    <p> lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p> <a href="#"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+            </div>
+        </div>
+        <a class="btn" href="#">See More</a></div>
+</div> <!---------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"><h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ashifalam2020af@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7352047460</p>
+                <div class="social-icons"><a href=""><i class="fa-brands fa-facebook-f"></i></a> <a href=""><i
+                        class="fa-brands fa-linkedin-in"></i></a> <a href=""><i class="fa-brands fa-github"></i></a> <a
+                        href=""><i class="fa-brands fa-instagram"></i></a> <a href=""><i
+                        class="fa-brands fa-twitter"></i></a></div>
+                <a class="btn btn2" href="">Download CV</a></div>
+            <div class="contact-right">
+                <form><input name="Name" placeholder="Your Name" required type="text"> <input name="Email"
+                                                                                              placeholder="Your Email"
+                                                                                              required
+                                                                                              type="email"> <textarea
+                        name="Message" placeholder="Your Message" rows="6"></textarea>
+                    <button class="btn btn2" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
