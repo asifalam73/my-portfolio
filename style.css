@@ -182,7 +182,7 @@ nav ul li a:hover::after{
 }
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -312,6 +312,11 @@ nav .fa-solid {
     display: none;
 }
 /*-------------css for small screen-----------*/
+@media only screen and (max-width: 900px) {
+    .work-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media only screen and (max-width: 600px){
     #header{
@@ -368,5 +373,8 @@ nav .fa-solid {
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+    }
+    .work-list{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
